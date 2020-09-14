@@ -27,28 +27,34 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
     2.d Write a function that receives a string and returns true if the first letter of the string is uppercase. (Hints: ".charAt(0)" and "Character.isUpperCase('a');" )
 
 ## Task 3 - Objects: 
-    3.a Create a new sketch and save it by the name "Class"
-    3.b Create a new tab called "Teacher" and another one called "Student"
+    3.a Create a new sketch and save it by the name "Datamatik".
+    3.b Create a new tab called "Teacher" and another one called "Student" 
     
-    3.c in the Student tab, define the class "Student" and add 3 fields: "name", "age", "isFemale" using appropriate data types for each.
-    3.d in the Student tab, add a Constructor that takes in 3 parameters with the names "tmpName", "tmpAge", "tmpIsFemale" with the same data types used in 3.c
+    3.c in the Student tab, define the class "Student" and add 4 fields: "name", "age", "isFemale", "datamatikerTeam" using appropriate data types for each.
+    3.d in the Student tab, add a Constructor that takes in 4 parameters with the names "tmpName", "tmpAge", "tmpIsFemale", "tmpDatamatikerTeam" with the same data types used in 3.c
     3.e populate the fields created in 3.c with the parameters of the constructor added in 3.d
 
-    3.f in the Teacher tab, define the class "Teacher" and add 3 fields: "name", "age", ??? using appropriate data types for each.
-    3.g in the Teacher tab, add a Constructor that takes in 3 parameters with the names "tmpName", "tmpAge", "tmp???" with the same datatypes used in 3.f
+    3.f in the Teacher tab, define the class "Teacher" and add 3 fields: "name", "age", "isFemale", using appropriate data types for each.
+    3.g in the Teacher tab, add a Constructor that takes in 3 parameters with the names "tmpName", "tmpAge", "tmpIsFemale" with the same datatypes used in 3.f
     3.h populate the fields created in 3.f with the parameters of the constructor added in 3.g
 
-    3.i Returning to the Class tab add a setup() function and in this function, create a new object of the type Teacher and give it the name, age and ??? of your teacher. 
-    3.j Also in the setup() function of Class, create two new objects of the type Student. The first one, with your own name, age and gender. The second one with the name, age and gender of the student sitting next to you. 
+    3.i Returning to the Datamatik tab add a setup() function and in this function, create a new object of the type Teacher and give it the name, age and gender of your teacher. 
+    3.j Also in the setup() function of Datamatik, create two new objects of the type Student. The first one, with your own name, age and gender. The second one with the name, age and gender of the student sitting next to you. 
 
-    3.k in the setup() function print the name of the teacher as well as the names of both students. 
+    3.k in the setup() function print the name of the teacher
+    3.l in the setup() function print the names of both students and which teams they are from. 
         
 
 ## Task 4 (Arrays): 
-    4.a Write a function that takes in an array of strings as parameter and prints each string.
-    4.b Write a function that receives an integer array as a parameter and returns the sum of all elements in the array.
-    4.c Write a function that receives an integer array as a parameter and returns the average value.	
-    4.d Write a function that takes in an integer array as a parameter and returns the array sorted from lowest to highest value.
+    For all exercises in Task 4, you are allowed to complete them with arrays of a fixed size. But do consider how the functions you write in 4.b, 4.c, 4.d, 4.e would work, if the array received as a parameter would not have a fixed length. 
+    4.a create arrays of the following type and assign it at least 3 different values: 
+        - Integer array
+        - String array
+        - boolean array
+    4.b Write a function that takes in an array of strings as parameter and prints each string.
+    4.c Write a function that receives an integer array as a parameter and returns the sum of all elements in the array.
+    4.d Write a function that receives an integer array as a parameter and returns the average value.	
+    4.e Write a function that takes in an integer array as a parameter and returns the array sorted from lowest to highest value.
     
 
 ## Task 5 - Putting it all together
@@ -64,3 +70,4 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
     5.b Create a function that takes in the array from 5.a as a parameter as well as an integer. The function should return the field name and print it.
 
     5.c Create a similar function to that of 5.b, but instead of receiving the array and an integer, it receives the array and a string. Loop through all elements in the array until you find the element with the name received as a parameter. Then return the index of that student.
+
