@@ -20,11 +20,13 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
     1.b Write a function that receives a string as a parameter and prints it. call this function from setup()
     1.c Write a function that receives a string called "name" and an integer called "age" and call it from setup with your own name and age. Have the function print the text "My name is \<name\>, I am <age> years old".
 
+
 ## Task 2 - functions return types
     2.a Look at the file TaskTwoA and fill out the missing line, using the happy boolean. 
     2.b Write a function that receives to integers as parameters and returns the sum of them.
     2.c Write a function that receives a string and returns it as uppercase. (Hint: ".toUpperCase()". Further hint: https://www.w3schools.com/jsref/jsref_toUpperCase.asp )
     2.d Write a function that receives a string and returns true if the first letter of the string is uppercase. (Hints: ".charAt(0)" and "Character.isUpperCase('a');" )
+
 
 ## Task 3 - Objects: 
     3.a Create a new sketch and save it by the name "Datamatik".
@@ -54,7 +56,7 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
     4.b Write a function that takes in an array of strings as parameter and prints each string.
     4.c Write a function that receives an integer array as a parameter and returns the sum of all elements in the array.
     4.d Write a function that receives an integer array as a parameter and returns the average value.	
-    4.e Write a function that takes in an integer array as a parameter and returns the array sorted from lowest to highest value.
+    4.e Consider how you could write a function that takes in an integer array as a parameter and returns the array sorted from lowest to highest value.
     
 
 ## Task 5 - Putting it all together
