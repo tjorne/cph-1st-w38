@@ -1,19 +1,21 @@
-boolean happy = true;
+class Main{
+  public static boolean happy = true;
 
-void setup() {
+public static void main(String [] args) {
    if (iAmHappy())
    {
-     println("I clap my hands");
+     System.out.println("I clap my hands");
    }
    else
    {
-     println("I don't clap my hands"); 
+     System.out.println("I don't clap my hands"); 
    }
 }
 
 
-boolean iAmHappy()
+public static boolean iAmHappy()
 {
   // fill out what is missing here: 
-  
+  return true;
+}
 }
