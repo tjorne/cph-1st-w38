@@ -16,9 +16,10 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 
 ## Task 1 - functions: 
-    1.a Write a function that prints an empty line and call it from setup();
-    1.b Write a function that receives a string as a parameter and prints it. call this function from setup()
-    1.c Write a function that receives a string called "name" and an integer called "age" and call it from setup with your own name and age. Have the function print the text "My name is \<name\>, I am <age> years old".
+    1.a Create a file and name it Main.java, include a main method.
+    1.b Write a function that prints an empty line and call it from main();
+    1.c Write a function that receives a string as a parameter and prints it. call this function from main()
+    1.d Write a function that receives a string called "name" and an integer called "age" and call it from main with your own name and age. Have the function print the text "My name is \<name\>, I am <age> years old".
 
 
 ## Task 2 - functions return types
@@ -29,26 +30,23 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
 
 ## Task 3 - Objects: 
-    3.a Create a new sketch and save it by the name "Datamatik".
-    3.b Create a new tab called "Teacher" and another one called "Student" 
-    
-    3.c in the Student tab, define the class "Student" and add 4 fields: "name", "age", "isFemale", "datamatikerTeam" using appropriate data types for each.
-    3.d in the Student tab, add a Constructor that takes in 4 parameters with the names "tmpName", "tmpAge", "tmpIsFemale", "tmpDatamatikerTeam" with the same data types used in 3.c
-    3.e populate the fields created in 3.c with the parameters of the constructor added in 3.d
-
-    3.f in the Teacher tab, define the class "Teacher" and add 3 fields: "name", "age", "isFemale", using appropriate data types for each.
-    3.g in the Teacher tab, add a Constructor that takes in 3 parameters with the names "tmpName", "tmpAge", "tmpIsFemale" with the same datatypes used in 3.f
+    3.a Create a new file and save it by the name "Datamatik".
+    3.b Create a new file called "Teacher" and another one called "Student". Save both files with the extension .java, and in the same folder as Datamatik.java
+    3.c in the Student class, declare the class "Student" and add 4 fields: "name", "age", "isFemale", "datamatikerTeam" using appropriate data types for each.
+    3.d in the Student class, add a constructor that takes in 4 parameters with the names "tmpName", "tmpAge", "tmpIsFemale", "tmpDatamatikerTeam" with the same data types used in 3.c
+    3.e populate the fields created in 3.c with the parameters of the constructor added in 3.d (you may use shaddowing with the keyword this)
+    3.f in the Teacher class, declare the class "Teacher" and add 3 fields: "name", "age", "isFemale", using appropriate data types for each.
+    3.g in the Teacher class, add a constructor that takes in 3 parameters with the names "tmpName", "tmpAge", "tmpIsFemale" with the same datatypes used in 3.f
     3.h populate the fields created in 3.f with the parameters of the constructor added in 3.g
 
-    3.i Returning to the Datamatik tab add a setup() function and in this function, create a new object of the type Teacher and give it the name, age and gender of your teacher. 
-    3.j Also in the setup() function of Datamatik, create two new objects of the type Student. The first one, with your own name, age and gender. The second one with the name, age and gender of the student sitting next to you. 
-
-    3.k in the setup() function print the name of the teacher
-    3.l in the setup() function print the names of both students and which teams they are from. 
+    3.i Returning to the Datamatik class add a main() function and in this function, create a new object/instance of the type Teacher and give it the name, age and gender of your teacher. 
+    3.j Also in the main() function of Datamatik, create two new objects/instances of the type Student. The first one, with your own name, age and gender. The second one with the name, age and gender of a student in your study group. 
+    3.k in the main() function print the name of the teacher
+    3.l in the main() function print the names of both students and which teams they are from. Do this witout writing any toString() methods
         
 
 ## Task 4 (Arrays): 
-    For all exercises in Task 4, you are allowed to complete them with arrays of a fixed size. But do consider how the functions you write in 4.b, 4.c, 4.d, 4.e would work, if the array received as a parameter would not have a fixed length. 
+    For all exercises in Task 4, you are allowed to complete them with arrays of a fixed size. But do consider how the functions you write in 4.b, 4.c, 4.d,  4.e would work, if the array received as a parameter would not have a fixed length. 
     4.a create arrays of the following type and assign it at least 3 different values: 
         - Integer array
         - String array
@@ -62,16 +60,16 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 ## Task 5 - Putting it all together
     For this task you should reuse the Student class from Task 3. 
         Methods of reusing the class could be: 
-        - copy the Students.pde file and open it in this sketch
-        - copy the content of the students tab from Task 3 and create it once more in this sketch
-        - Open the task 3 and continue working in this.
+        - copy the Students.java file and add it to a new folder called task5
+        - copy the content of the Students class from Task 3 and create the class once more in this folder
+        - Open the task 3 folder and continue working in this.
         Either method is fine - it is up to you. 
         
-    5.a Create an array of Students (the class created in Task 3) with 10 elements in it. Each student must have a unique name.
+    5.a Create a new class Datamatik or reuse the one you created earlier. Add an array of Students with 10 elements in it. This should be a class variable (static). From the main method, add 10 student instances to the array. Each student must have a unique reference.
     
-    5.b Create a function that takes in the array from 5.a as a parameter as well as an integer. The function should return the field "name" (the name of the student) and print it. Call this method with different parameters (only the integer - not the array) from the setup() of Datamatik.
+    5.b Create a function in Datamatik that takes in the array from 5.a as a parameter as well as an integer. The function should return the field "name" (the name of the student) and print it (the integer should be used as the index nuber of the student to be printed). Call this method with different parameters (only the integer - not the array) from the main() of Datamatik.
 
-    5.c Create a similar function to that of 5.b, but instead of receiving the array and an integer, it receives the array and a string. Loop through all elements in the array until you find the element with the name received as a parameter. Then return the index of that student. Call this method with different names from the setup() of Datamatik
+    5.c Create a similar function to that of 5.b, but instead of receiving the array and an integer, it receives the array and a string. Loop through all elements in the array until you find the element with the name received as a parameter. Then return the index of that student. Call this method with different names from the main method of Datamatik
 
     
 
