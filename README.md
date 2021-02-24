@@ -1,10 +1,9 @@
 # cph-1st-w38
 Exercises for week 38
 
-Alle opgaverne kan løses ud fra den viden I har tilegnet jer fra bogen. 
-I enkelte tilfælde er der behov for viden vi endnu ikke har været igennem - i disse tilfælde, vil der være et hint i opgaveformuleringen. 
+Alle opgaverne kan løses ud fra den viden I har tilegnet jer fra bogen og skal løses med en tekst editor og compiles med en kommando prompt/Terminal.
+I enkelte tilfælde er der behov for viden vi endnu ikke har været igennem - i disse tilfælde, vil der være et hint i opgaveformuleringen. I vil også kunne hente hjælp i kapitel 11 ThinkJava.
 
-Opgaverne er struktureret således at de følger kapitlerne i bogen. 
 
 Såfremt I sidder fast ved en opgave, så tag en kort pause og prøv igen. Hvis I stadig sidder fast ved den, så hop videre til den næste.
 Generelt er det bedre at I får tænkt over alle opgaverne, end at I får løst dem allesammen fuldkommen. 
@@ -72,4 +71,6 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
     5.c Create a similar function to that of 5.b, but instead of receiving the array and an integer, it receives the array and a string. Loop through all elements in the array until you find the element with the name received as a parameter. Then return the index of that student. Call this method with different names from the main method of Datamatik
 
     
-
+## Task 6 /*
+Start en ny java fil med din tekst editor og sæt koden fra 'Oops.java' ind. Gem filen med det rigtige navn og compile klassen - du vil se at der er 7 fejl. Fix dem.
+'
