@@ -1,4 +1,4 @@
-# cph-1st-w38
+g# cph-1st-w38
 Exercises for week 38
 
 Alle opgaverne kan løses ud fra den viden I har tilegnet jer fra bogen og skal løses med en tekst editor og compiles med en kommando prompt/Terminal.
@@ -72,5 +72,5 @@ Opgaverne skal ligesom sidste uge, afleveres på moodle, via et link til jeres g
 
     
 ## Task 6 /*
-Start en ny java fil med din tekst editor og sæt koden fra 'Oops.java' ind. Gem filen med det rigtige navn og compile klassen - du vil se at der er 7 fejl. Fix dem.
+Start en ny java fil med din tekst editor og sæt koden fra 'debug' ind i filen. Gem filen med det rigtige navn og compile klassen - du vil se at der er 7 fejl. Fix dem.
 '
